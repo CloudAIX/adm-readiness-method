@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+.venv/
+
+# ---------------------------------------------------------------------------
+# NEVER COMMIT: identifiable scan results.
+# Publishing named practices against a compliance gap is not "building in
+# public" - it is publishing someone else's exposure. Aggregates only.
+# ---------------------------------------------------------------------------
+data/domains.txt
+data/scan-*.json
+data/sample-scan.json
+data/judged/
+data/policies/
+data/LABELLING-SHEET.md
+data/MY-VERDICTS.md
