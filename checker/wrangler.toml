@@ -1,0 +1,7 @@
+name = "adm-checker"
+main = "worker.js"
+compatibility_date = "2026-09-01"
+
+kv_namespaces = [
+  { binding = "ADM_LEADS", id = "6d7751764bec4570ad904229587b26ea" }
+]
