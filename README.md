@@ -70,7 +70,7 @@ python3 tests/test_scan.py
 | **2. Scale the scan** | 29 Aug | 100+ domains, headless rendering, real sector statistic |
 | **3. Public checker** | done, 6 Sep | Live at [gvrn-ai.com/adm-check.html](https://gvrn-ai.com/adm-check.html) — Cloudflare Worker (`checker/`) ports the scanner, page captures the email |
 | **4. Design partner** | 10 Sep | Mercy Family Doctors engagement, paid. First case study. |
-| **5. Paid report** | 30 Sep | Full readiness report generated from scan + the `gp_clinic` audit vertical |
+| **5. Paid report** | done, 6 Sep | `report/generate.py` — scan result to branded 2-page client PDF: findings table, drafted disclosure paragraph tuned to detected automation, next steps. `python3 report/generate.py <domain> --name "Practice"` |
 | **6. Distribution** | Oct–Nov | Checker as the artefact, newsletter carries it, the deadline sells it |
 | **7. Deadline** | 10 Dec | Window closes |
 
